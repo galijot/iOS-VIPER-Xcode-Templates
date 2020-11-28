@@ -12,15 +12,23 @@ import UIKit
 import RxSwift
 import RxCocoa
 
-protocol ___VARIABLE_moduleName___WireframeInterface: WireframeInterface {
+// MARK: - Wireframe
+
+protocol ___VARIABLE_moduleName___WireframeProtocol: WireframeProtocol {
 }
 
-protocol ___VARIABLE_moduleName___ViewInterface: ViewInterface {
+// MARK: - View
+
+protocol ___VARIABLE_moduleName___ViewProtocol: ViewProtocol {
 }
 
-protocol ___VARIABLE_moduleName___PresenterInterface: PresenterInterface {
+// MARK: - Presenter
+
+protocol ___VARIABLE_moduleName___PresenterProtocol: PresenterProtocol {
     func configure(with output: ___VARIABLE_moduleName___.ViewOutput) -> ___VARIABLE_moduleName___.ViewInput
 }
+
+// MARK: - Module
 
 enum ___VARIABLE_moduleName___ {
 
@@ -29,5 +37,4 @@ enum ___VARIABLE_moduleName___ {
 
     struct ViewInput {
     }
-
 }

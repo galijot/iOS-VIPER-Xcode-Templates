@@ -10,14 +10,22 @@
 
 import UIKit
 
-protocol ___VARIABLE_moduleName___WireframeInterface: WireframeInterface {
+// MARK: - Wireframe
+
+protocol ___VARIABLE_moduleName___WireframeProtocol: WireframeProtocol {
 }
 
-protocol ___VARIABLE_moduleName___ViewInterface: ViewInterface {
+// MARK: - View
+
+protocol ___VARIABLE_moduleName___ViewProtocol: ViewProtocol {
 }
 
-protocol ___VARIABLE_moduleName___PresenterInterface: PresenterInterface {
+// MARK: - Presenter
+
+protocol ___VARIABLE_moduleName___PresenterProtocol: PresenterProtocol {
 }
 
-protocol ___VARIABLE_moduleName___InteractorInterface: InteractorInterface {
+// MARK: - Interactor
+
+protocol ___VARIABLE_moduleName___InteractorProtocol: InteractorProtocol {
 }

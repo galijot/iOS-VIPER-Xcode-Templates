@@ -14,7 +14,7 @@ import RxCocoa
 
 final class ___VARIABLE_moduleName___Wireframe: BaseWireframe<___VARIABLE_moduleName___ViewController> {
 
-    // MARK: - Private properties -
+    // MARK: - Properties
 
     // MARK: - Module setup -
 
@@ -28,7 +28,7 @@ final class ___VARIABLE_moduleName___Wireframe: BaseWireframe<___VARIABLE_module
 
 }
 
-// MARK: - Extensions -
+// MARK: - WireframeProtocol
 
-extension ___VARIABLE_moduleName___Wireframe: ___VARIABLE_moduleName___WireframeInterface {
+extension ___VARIABLE_moduleName___Wireframe: ___VARIABLE_moduleName___WireframeProtocol {
 }

@@ -14,22 +14,22 @@ import RxCocoa
 
 final class ___VARIABLE_moduleName___Presenter {
 
-    // MARK: - Private properties -
+    // MARK: - Properties
 
-    private unowned let view: ___VARIABLE_moduleName___ViewInterface
-    private let wireframe: ___VARIABLE_moduleName___WireframeInterface
+    private unowned let view: ___VARIABLE_moduleName___ViewProtocol
+    private let wireframe: ___VARIABLE_moduleName___WireframeProtocol
 
     // MARK: - Lifecycle -
 
-    init(view: ___VARIABLE_moduleName___ViewInterface, wireframe: ___VARIABLE_moduleName___WireframeInterface) {
+    init(view: ___VARIABLE_moduleName___ViewProtocol, wireframe: ___VARIABLE_moduleName___WireframeProtocol) {
         self.view = view
         self.wireframe = wireframe
     }
 }
 
-// MARK: - Extensions -
+// MARK: - PresenterProtocol
 
-extension ___VARIABLE_moduleName___Presenter: ___VARIABLE_moduleName___PresenterInterface {
+extension ___VARIABLE_moduleName___Presenter: ___VARIABLE_moduleName___PresenterProtocol {
 
     func configure(with output: ___VARIABLE_moduleName___.ViewOutput) -> ___VARIABLE_moduleName___.ViewInput {
         return ___VARIABLE_moduleName___.ViewInput()

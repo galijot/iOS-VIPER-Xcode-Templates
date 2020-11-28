@@ -12,19 +12,18 @@ import UIKit
 
 final class ___VARIABLE_moduleName___ViewController: UIViewController {
 
-    // MARK: - Public properties -
+    // MARK: - Properties
 
-    var presenter: ___VARIABLE_moduleName___PresenterInterface!
+    var presenter: ___VARIABLE_moduleName___PresenterProtocol!
 
-    // MARK: - Lifecycle -
+    // MARK: - Lifecycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
 }
 
-// MARK: - Extensions -
+// MARK: - ViewProtocol
 
-extension ___VARIABLE_moduleName___ViewController: ___VARIABLE_moduleName___ViewInterface {
+extension ___VARIABLE_moduleName___ViewController: ___VARIABLE_moduleName___ViewProtocol {
 }

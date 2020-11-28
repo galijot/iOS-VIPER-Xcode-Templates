@@ -15,9 +15,9 @@ import RxCocoa
 final class ___VARIABLE_moduleName___Formatter {
 }
 
-// MARK: - Extensions -
+// MARK: - FormatterProtocol
 
-extension ___VARIABLE_moduleName___Formatter: ___VARIABLE_moduleName___FormatterInterface {
+extension ___VARIABLE_moduleName___Formatter: ___VARIABLE_moduleName___FormatterProtocol {
 
     func format(for input: ___VARIABLE_moduleName___.FormatterInput) -> ___VARIABLE_moduleName___.FormatterOutput {
         return ___VARIABLE_moduleName___.FormatterOutput()

@@ -12,7 +12,7 @@ import UIKit
 
 final class ___VARIABLE_moduleName___Wireframe: BaseWireframe<___VARIABLE_moduleName___ViewController> {
 
-    // MARK: - Private properties -
+    // MARK: - Properties
 
     private let storyboard = UIStoryboard(name: "___VARIABLE_moduleName___", bundle: nil)
 
@@ -28,7 +28,7 @@ final class ___VARIABLE_moduleName___Wireframe: BaseWireframe<___VARIABLE_module
 
 }
 
-// MARK: - Extensions -
+// MARK: - WireframeProtocol
 
-extension ___VARIABLE_moduleName___Wireframe: ___VARIABLE_moduleName___WireframeInterface {
+extension ___VARIABLE_moduleName___Wireframe: ___VARIABLE_moduleName___WireframeProtocol {
 }

@@ -27,7 +27,7 @@ final class ___VARIABLE_moduleName___Wireframe: BaseWireframe<___VARIABLE_module
 
 }
 
-// MARK: - Extensions -
+// MARK: - WireframeProtocol
 
-extension ___VARIABLE_moduleName___Wireframe: ___VARIABLE_moduleName___WireframeInterface {
+extension ___VARIABLE_moduleName___Wireframe: ___VARIABLE_moduleName___WireframeProtocol {
 }

@@ -14,26 +14,23 @@ import RxCocoa
 
 final class ___VARIABLE_moduleName___ViewController: UIViewController {
 
-    // MARK: - Public properties -
+    // MARK: - Properties
 
-    var presenter: ___VARIABLE_moduleName___PresenterInterface!
-
-    // MARK: - Private properties -
+    var presenter: ___VARIABLE_moduleName___PresenterProtocol!
 
     private let disposeBag = DisposeBag()
 
-    // MARK: - Lifecycle -
+    // MARK: - Lifecycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
     }
-
 }
 
-// MARK: - Extensions -
+// MARK: - ViewProtocol
 
-extension ___VARIABLE_moduleName___ViewController: ___VARIABLE_moduleName___ViewInterface {
+extension ___VARIABLE_moduleName___ViewController: ___VARIABLE_moduleName___ViewProtocol {
 }
 
 private extension ___VARIABLE_moduleName___ViewController {
@@ -43,5 +40,4 @@ private extension ___VARIABLE_moduleName___ViewController {
 
         let input = presenter.configure(with: output)
     }
-
 }

@@ -13,7 +13,16 @@ import Foundation
 final class ___VARIABLE_moduleName___Interactor {
 }
 
-// MARK: - Extensions -
+// MARK: - Dependencies
 
-extension ___VARIABLE_moduleName___Interactor: ___VARIABLE_moduleName___InteractorInterface {
+extension ___VARIABLE_moduleName___Interactor {
+
+    struct Dependencies {
+
+    }
+}
+
+// MARK: - InteractorProtocol
+
+extension ___VARIABLE_moduleName___Interactor: ___VARIABLE_moduleName___InteractorProtocol {
 }

@@ -14,16 +14,16 @@ import RxCocoa
 
 final class ___VARIABLE_moduleName___Presenter {
 
-    // MARK: - Private properties -
+    // MARK: - Properties
 
-    private unowned let view: ___VARIABLE_moduleName___ViewInterface
-    private let formatter: ___VARIABLE_moduleName___FormatterInterface
-    private let interactor: ___VARIABLE_moduleName___InteractorInterface
-    private let wireframe: ___VARIABLE_moduleName___WireframeInterface
+    private unowned let view: ___VARIABLE_moduleName___ViewProtocol
+    private let formatter: ___VARIABLE_moduleName___FormatterProtocol
+    private let interactor: ___VARIABLE_moduleName___InteractorProtocol
+    private let wireframe: ___VARIABLE_moduleName___WireframeProtocol
 
     // MARK: - Lifecycle -
 
-    init(view: ___VARIABLE_moduleName___ViewInterface, formatter: ___VARIABLE_moduleName___FormatterInterface, interactor: ___VARIABLE_moduleName___InteractorInterface, wireframe: ___VARIABLE_moduleName___WireframeInterface) {
+    init(view: ___VARIABLE_moduleName___ViewProtocol, formatter: ___VARIABLE_moduleName___FormatterProtocol, interactor: ___VARIABLE_moduleName___InteractorProtocol, wireframe: ___VARIABLE_moduleName___WireframeProtocol) {
         self.view = view
         self.formatter = formatter
         self.interactor = interactor
@@ -31,9 +31,9 @@ final class ___VARIABLE_moduleName___Presenter {
     }
 }
 
-// MARK: - Extensions -
+// MARK: - PresenterProtocol
 
-extension ___VARIABLE_moduleName___Presenter: ___VARIABLE_moduleName___PresenterInterface {
+extension ___VARIABLE_moduleName___Presenter: ___VARIABLE_moduleName___PresenterProtocol {
 
     func configure(with output: ___VARIABLE_moduleName___.ViewOutput) -> ___VARIABLE_moduleName___.ViewInput {
 

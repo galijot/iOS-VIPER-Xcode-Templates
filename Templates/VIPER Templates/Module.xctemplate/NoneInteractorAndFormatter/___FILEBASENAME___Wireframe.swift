@@ -12,9 +12,9 @@ import UIKit
 
 final class ___VARIABLE_moduleName___Wireframe: BaseWireframe<___VARIABLE_moduleName___ViewController> {
 
-    // MARK: - Private properties -
+    // MARK: - Properties
 
-    // MARK: - Module setup -
+    // MARK: - Init
 
     init() {
         let moduleViewController = ___VARIABLE_moduleName___ViewController()
@@ -25,10 +25,9 @@ final class ___VARIABLE_moduleName___Wireframe: BaseWireframe<___VARIABLE_module
         let presenter = ___VARIABLE_moduleName___Presenter(view: moduleViewController, formatter: formatter, interactor: interactor, wireframe: self)
         moduleViewController.presenter = presenter
     }
-
 }
 
-// MARK: - Extensions -
+// MARK: - WireframeProtocol
 
-extension ___VARIABLE_moduleName___Wireframe: ___VARIABLE_moduleName___WireframeInterface {
+extension ___VARIABLE_moduleName___Wireframe: ___VARIABLE_moduleName___WireframeProtocol {
 }
